@@ -25,7 +25,7 @@
             </div>
             <% end %>
             <span>
-            <li><%= link_to user.email, conversations_path(user_id: user), remote: true, method: :post %></li>
+           <button class="button"><li><%= link_to user.email, conversations_path(user_id: user), remote: true, method: :post %>     </li></button> 
           <% end %>
         </ul>
       </div>
