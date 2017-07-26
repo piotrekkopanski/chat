@@ -3,6 +3,9 @@
  *= require_self
  */
 
+.body {
+  background-image: url(/assets/back.jpg);
+}
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -48,8 +51,5 @@ ul {
 }
 .glyphicon.glyphicon-remove {
    color: red;
-}
-.navbar.navbar-inverse {
-  background-image: url(/assets/back.jpg);
 }
 

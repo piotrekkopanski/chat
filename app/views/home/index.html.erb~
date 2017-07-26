@@ -18,11 +18,11 @@
            <% if user.sign_in_count? %>
            <div class="glyphicon glyphicon-ok">
               zalogowany
-           </div>
+           <div>
             <% else %>
             <div class="glyphicon glyphicon-remove">
             niedostepny
-            </div>
+            <div>
             <% end %>
             <span>
             <li><%= link_to user.email, conversations_path(user_id: user), remote: true, method: :post %></li>
